@@ -37,7 +37,7 @@ public class Dups4 {
       TreeSet<String> dups = new TreeSet<>();
       for (String x : L) {
           if (!seen.add(x)) {
-              /* seen.add(x) returns true when adding x change the set*/
+              /* seen.add(x) returns true when adding x change the SetDemo*/
               dups.add(x);
           }
       }
